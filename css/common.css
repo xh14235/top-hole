@@ -1,0 +1,38 @@
+html,body,div,p,h1,h2,h3,h4,h5,h6,span,a,b,s,i,img,table,thead,tbody,th,td,tr,ul,ol,li,input,button,textarea{margin: 0; padding: 0; box-sizing: border-box; font-size: 16px;font-family: SourceHanSansSC-Regular, "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;;color: rgb(51,51,51);}
+body{padding-top: 100px;}
+a{text-decoration: none;color: rgb(51,51,51);}
+img{border: 0;}
+ul,ol,li{list-style: none;}
+.container{width: 1200px;margin: 0 auto;}
+.clear:after{display: block;content:"";clear:both;}
+/*头部*/
+.header{min-width: 1200px;height: 100px;line-height: 94px;border-top: 6px solid #132238;position: fixed;top: 0;left: 0;width: 100%;background: #fff;z-index: 2;box-shadow: 0 0 10px #a7a7a7;}
+.header .container{width: 100%;min-width: 1200px;max-width: 1520px;margin: 0 auto;}
+.logo{float: left;margin-top: 30px;margin-left: 15px;width: 236px;height: 40px;background-image: url('../img/3@4x.png');background-size: cover;}
+.logo img{width: 100%;}
+.weibo,.weixin,.nav{float: right;}
+.weixin{width: 20px;margin-right: 15px;}
+.weibo{margin-right: 20px;width: 20px;}
+.nav{margin-right: 10px;}
+.nav>li{float: left;margin-right: 45px;position: relative;}
+.nav3{position: absolute;top: 60px;left: -40px;width: 141px;height: 164px;background: url('../img/nav.png');padding-top: 37px;z-index: 5;display: none;}
+.nav3 li{width: 125px;margin: 0 auto;height: 32px;line-height: 32px;text-align: center;}
+.nav3 li:hover{background: url('../img/click.png');background-size: 100%;}
+.nav>li:hover>a{color: #116cb0;}
+
+.footer{width: 100%;min-width: 1200px;padding-top: 130px;padding-bottom: 41px;/*background: #132238;*/background-image: url('../img/footer.png');background-size: cover;}
+.footer .container{padding-bottom: 32px;}
+.logo2,.nav2{float: left;}
+.logo2 img{width: 95px;}
+.nav2{margin-left: 210px;width: 330px;}
+.nav2 a{float: left;margin-left: 100px;margin-bottom: 52px;color: #fff;font-size: 16px;}
+.erweima{float: right;margin-top: 10px;}
+.erweima-box{float: right;text-align: center;margin-left: 25px;}
+.erweima-box p{margin-top: 30px;color: #fff;}
+.icp{text-align: center;color: #7b7b7b;width: 777px;margin: 0 auto;padding-top: 43px;border-top: 1px solid #535353;}
+
+.common-title{font-size: 30px;margin-bottom: 64px;font-weight:bold;color:rgba(68,68,68,1);text-align: center;}
+
+.totop{position: fixed;right: 30px;bottom: 30px;width: 50px;height: 50px;background: url('../img/top_bg.png');cursor: pointer;display: none;}
+.top_img{position: absolute;top: 14px;left: 15.5px;width: 19px;height: 22px;background: url('../img/top.png');}
+.totop:hover .top_img{background: url('../img/top_active.png');}
